@@ -12,6 +12,14 @@ body {
   border-top: gray 5px solid;
 }
 
+.banner {
+  background: #c2bbb1 url(../images/laptop.jpg) center center no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
 .heading {
   margin-bottom: 0px;
 }
@@ -39,7 +47,6 @@ body {
   color: black;
   text-decoration: none;
   padding: 5px 10px;
-  font-weight: bolder;
 }
 
 .site-nav a:hover {
@@ -48,6 +55,7 @@ body {
 
 .site-nav {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .group:before,
