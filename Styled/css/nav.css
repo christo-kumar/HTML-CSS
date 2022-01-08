@@ -81,9 +81,10 @@ body {
 }
 
 .col-1 {
-  width: 60%;
+  width: 100%;
+  font-size: 130%;
 }
 
 .col-2 {
-  width: 40%;
+  width: 100%;
 }
