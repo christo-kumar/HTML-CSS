@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <!-- BANNER -->
+    <div class="bg-dark py-5 text-light shadow mb-5">
+        <div class="container">
+            <h1 class="display-2"> My bootstrap site</h1>
+            <p class="lead"> Be healty stay healty</p>
+        </div>
+    </div>
+
+    <!--MAIN CONTENT-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Welcome to Page</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti amet blanditiis esse explicabo provident dolorem iusto. Excepturi quae iste aliquam accusamus labore mollitia id quod ipsam accusantium, molestiae quasi nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque quod quibusdam qui magnam tempore consectetur ullam soluta explicabo, molestiae, obcaecati assumenda consequuntur quas architecto illum unde, eum iure quaerat!</p>
+                <a href="#btn-learnMore" data-toggle="collapse" class="btn btn-primary">Learn More</a>
+                <div class="collapse mt-3" id="btn-learnMore">
+                    <h3>Hidden Content</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, praesentium iusto adipisci nemo rerum dolor qui error nesciunt unde, vitae, vel ex magnam tempora architecto mollitia doloribus aliquid quos reprehenderit?</p>
+                </div>
+            </div>
+            <div class="col-md-4 small">
+                <div class="alert alert-warning"> Site update in progress</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae animi dolorem modi commodi exercitationem ipsa ut sint. Quam ad accusamus aperiam ex, blanditiis in quos sunt, maiores iusto neque incidunt?</p>
+                <button class="btn btn-outline-success" data-toggle="modal" data-target="#contact-us"> Hello World</button>
+                <!-- Modal -->
+                <div class="modal fade" id="contact-us" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        ...
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="border-top my-5 py-4">
+        <p class="small tex-muted text-center">&copy; 2022 Our site</p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
